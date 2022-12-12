@@ -1,0 +1,9 @@
+1
+Album1
+Khue
+2010
+2
+./image/artwork.jpeg
+1
+3107
+./tracks/3107.mp3

@@ -1,0 +1,42 @@
+# TypeProf 0.15.0
+
+# Global variables
+$genre_names: [String, String, String, String, String]
+
+# Classes
+class Object
+  private
+  def get_track: (File music_file) -> Track
+  def get_tracks: (File music_file) -> Track
+  def get_album: -> Album
+  def print_tracks: (Array[Track] tracks) -> nil
+  def print_album: (Album album) -> nil
+  def main: -> nil
+end
+
+module Genre
+  POP: 1
+  CLASSIC: 2
+  JAZZ: 3
+  ROCK: 4
+end
+
+class Track
+  attr_accessor name: String
+  attr_accessor location: String
+  def initialize: (String name, String location) -> void
+end
+
+class Album
+  attr_accessor title: String
+  attr_accessor artist: String
+  attr_accessor genre: Integer
+  attr_accessor tracks: Array[Track]
+  def initialize: (String title, String artist, Integer genre, Array[Track] tracks) -> void
+end
+
+
+## Version info:
+##   * Ruby: 3.0.0
+##   * RBS: 1.3.1
+##   * TypeProf: 0.15.0

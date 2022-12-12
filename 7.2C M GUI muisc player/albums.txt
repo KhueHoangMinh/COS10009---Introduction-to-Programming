@@ -1,0 +1,14 @@
+My collection
+Khue
+./image/artwork.jpeg
+5
+3107
+./tracks/3107.mp3
+31072
+./tracks/31072.mp3
+bang
+./tracks/bang.mp3
+baby
+./tracks/baby.mp3
+31072
+./tracks/31072.mp3
